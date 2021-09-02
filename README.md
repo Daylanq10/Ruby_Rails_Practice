@@ -1,2 +1,24 @@
-# Ruby_Rails_Practice
-Playing around with Ruby on Rails Framework. Want to play with external API and Database (probably sqlite)
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...

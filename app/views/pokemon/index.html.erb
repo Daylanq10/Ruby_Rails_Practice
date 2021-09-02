@@ -1,0 +1,21 @@
+
+<!-- app/views/pokemon/index.html.erb -->
+<div class="container">
+
+        <%= form_with(url: search_path, method: 'get', local: true) do %>
+            <!-- ... -->
+            
+            <% if flash[:alert] %>
+                <div class="alert alert-warning"><%= flash[:alert] %></div>
+            <% end %>
+            
+            <!-- ... -->
+          <div class="form-group">
+            <%= label_tag :name, 'Search for a Pokemon'%>
+            <%= text_field_tag :name, nil, placeholder: 'Ex. Charmander', class: 'form-control' %>
+          </div>
+          <%= button_tag 'Search', class: 'btn btn-success btn-block' %>
+          
+        <% end %>
+ 
+</div>

@@ -1,0 +1,27 @@
+<!-- app/views/travel/search.html.erb -->
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-lg-6">
+      <h4>Pokemon info</h4>
+      <dl>
+        <dt clsss="container"">Pokemon</dt>
+
+        <dd><%= @pokemon_name %></dd>
+
+        <dd><%= @entry_number %></dd>
+
+        <dd><%= @description %></dd>
+
+        <dd><%= @details["height"] %></dd>
+
+        <dd><%= @details["weight"] %></dd>
+        
+        <dd> <%= @types_list %> </dd>
+
+        <dd><%= image_tag @details["sprites"]["front_default"] %></dd>
+        <dd><%= image_tag @details["sprites"]["front_shiny"] %></dd>
+
+      </dl>
+    </div>
+  </div>
+</div>
